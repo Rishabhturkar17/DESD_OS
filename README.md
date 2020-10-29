@@ -21,3 +21,10 @@
     * gcc -o libname.so -shared -fPIC  
     * lib function reference definition embedded in a binary
     * Single copy of library function loaded in the memory 
+
+* PID ,PPID ,UID 
+* getpid() ,getppid()
+* man pages
+
+* fork - creating a new process
+* parent and child relationship
