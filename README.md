@@ -14,4 +14,10 @@
 * Static Library
     * ar x  (extract)
     * ar crv libname.a 1.o 2.o .......n.o
-* Dynamic library        
+    * lib function embedded in a binary
+    * multiple copies of library function loaded in the memory
+     
+* Dynamic library
+    * gcc -o libname.so -shared -fPIC  
+    * lib function reference definition embedded in a binary
+    * Single copy of library function loaded in the memory 
