@@ -28,3 +28,25 @@
 
 * fork - creating a new process
 * parent and child relationship
+
+* Psuedo parallelism
+* True parallelism
+
+* ltrace
+* strace
+* Program using system call -> write a string inside a file
+
+* Library 
+    * User space
+    * Maybe Buffered I/O
+    * Formatted I/O
+
+* System
+    * Kernel space
+    * Not buffered I/O
+    * No Formatted I/O
+
+* open -  O_CREAT
+* int - File descriptor
+    * fd - represents an open file in the kernel
+        
